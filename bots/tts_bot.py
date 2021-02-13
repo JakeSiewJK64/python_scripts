@@ -31,7 +31,7 @@ LANG = "ja"
 TEXT_FILE = "text_speech.txt"
 FILENAME = "voice.mp3"
 URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "a538092306cf6de786078c0681f6855f"
+API_KEY = "YOUR_API_KEY"
 CITY_NAME = "Kuala Lumpur"
 complete_url = URL + "appid=" + API_KEY + "&q=" + CITY_NAME 
 response = requests.get(complete_url)
