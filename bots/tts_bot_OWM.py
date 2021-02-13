@@ -4,21 +4,13 @@ DATE: 4:12PM 13/02/2021
 '''
 from __future__ import print_function
 from gtts import gTTS
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
 from googletrans import Translator
 
 import os
 import time
 import playsound
-import speech_recognition as sr
 import requests
 import datetime
-import pickle
-import os.path
-import pyttsx3
-
 
 def write_to_file(FILENAME, message):
     f = open(FILENAME, 'w', encoding='utf-8')
